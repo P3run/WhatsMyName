@@ -1267,6 +1267,20 @@
       "cat": "social"
     },
     {
+      "name": "CesjeLeasingu.pl",
+      "uri_check": "https://cesjeleasingu.pl/profil/{account}",
+      "uri_pretty": "https://cesjeleasingu.pl/profil/{account}",
+      "e_code": 200,
+      "e_string": "Profil użytkownika:",
+      "m_string": "Error 404 - Cesje Leasingu",
+      "m_code": 404,
+      "known": [
+        "Mako85",
+        "Szakullukas"
+      ],
+      "cat": "misc"
+    },
+    {
       "name": "cfx.re",
       "uri_check": "https://forum.cfx.re/u/{account}.json",
       "uri_pretty": "https://forum.cfx.re/u/{account}/summary",
@@ -2441,6 +2455,20 @@
         "ania"
       ],
       "cat": "images"
+    },
+    {
+      "name": "Fanberry",
+      "uri_check": "https://api.fanberry.com/api-fanberry/page-info?code={account}",
+      "uri_pretty": "https://{account}.fanberry.com/",
+      "e_code": 200,
+      "e_string": "\"message\":\"success\"",
+      "m_string": "\"message\":null",
+      "m_code": 200,
+      "known": [
+        "medroxy",
+        "lovenseofficial"
+      ],
+      "cat": "xx NSFW xx"
     },
     {
       "name": "FanCentro",
